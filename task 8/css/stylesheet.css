@@ -1,0 +1,199 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+    background-image: url(../images/13190298542.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li
+{
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    margin: 15px 5px 10px;
+    display: inline-block;
+    
+}
+.one
+{
+    float: left;
+    background-color: rgb(182, 27, 182);
+    margin: 5px;
+    padding: 20px;
+}
+.one:hover
+{
+    background-color: burlywood;
+    transition: .5 ease-in-out all;
+    border-radius: 10px;
+}
+header ul li a
+{
+    text-decoration: none;
+    color: white;
+    
+}
+header
+{
+    background-color: rgba(23, 23, 24, 0.774);
+    position: fixed;
+    padding: 1px;
+    top: 0;
+    width: 100%;
+    height: 70px;
+}
+.facebook:hover , .twitter:hover , .instagram:hover , .youtube:hover
+{
+    transition: 1s ease-in-out ;
+    background-color: rgb(233, 158, 18);
+    border-radius: 10px;
+}
+.div2
+{
+    margin:100px 100px ;
+    position: fixed;
+    width: 20px;
+    z-index: 2;
+}
+.about ,.contact ,.news
+{
+    display: block;
+    text-decoration: none;
+    margin-left: -180px;
+    width: 80px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    
+
+}
+.about
+{
+    background-color: blueviolet;
+}
+.contact
+{
+    background-color: rgb(88, 8, 84);
+}
+.news
+{
+    background-color: rgb(100, 94, 6);
+}
+.about:hover , .contact:hover , .news:hover
+{
+    margin-left:-100px;
+    transition: 1s ease-in-out all ;
+    
+}
+.art1
+{
+    margin: 120px;
+    padding: 50px;
+    background-color:rgba(240, 255, 240, 0.158);
+    text-align: center;
+}
+ h1
+{
+    font-size: 20px;
+    font-weight: 1000;
+    text-align: center;
+    color: rgb(195, 145, 243);
+}
+audio
+{
+    width: 20px;
+}
+audio:hover
+{
+    width: 60%;
+    transition: 1s ease-in-out all;
+}
+.art2
+{
+    margin: 40px;
+    padding: 20px;
+}
+video
+{
+    width: 30%;
+    border-radius: 90%;
+
+}
+video:hover
+{
+    width: 50%;
+    border-radius: 20px;
+    transition: 1s ease-out all;
+}
+.sec2 input
+{
+    margin: 20px;
+    width: 90%;
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    background-color: rgb(206, 173, 236);
+    color:black;
+}
+.lap1
+{
+    margin: 20px;
+    width: 60%;
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    background-color: rgb(206, 173, 236);
+    color:rgb(243, 224, 224);
+}
+button
+{
+    margin: 20px 50%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(29, 12, 46);
+    color: white;
+    width: 100px;
+    
+}
+button:hover
+{
+    opacity: .5;
+    transition: .5s ease-in-out all;
+}
+.last 
+{
+   width:10px ;
+    margin: 20px; 
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border :solid 1px black;
+    background-color: rgb(206, 173, 236);
+    color:black;
+}
+.last:hover
+{
+    width: 40%;
+    border: 1px black solid;
+    transition: 1s ease-in-out all ;
+}
+footer
+{
+    margin: 0px;
+    padding: 20px;
+    background-color: darkslateblue;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}

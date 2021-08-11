@@ -1,0 +1,192 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li
+{
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    margin: 15px 5px 10px;
+    display: inline-block;
+    
+}
+.one
+{
+    float: left;
+    background-color: thistle;
+    margin: 5px;
+    padding: 20px;
+}
+.div1 ul li a
+{
+    text-decoration: none;
+    color: white;
+    
+}
+.div1
+{
+    background-color: slategrey;
+    position: fixed;
+    padding: 1px;
+    top: 0;
+    width: 100%;
+    height: 70px;
+}
+.facebook:hover , .twitter:hover , .instagram:hover , .youtube:hover
+{
+    transition: 1s ease-in-out ;
+    background-color: wheat;
+}
+.div2
+{
+    margin:100px 100px ;
+    position: fixed;
+    width: 20px;
+    z-index: 2;
+}
+.Cameras ,.TVs ,.Mobiles  , .Laptops
+{
+    display: block;
+    text-decoration: none;
+    margin-left: -180px;
+    width: 80px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    text-align: center;
+    
+
+}
+.Cameras
+{
+    background-color: chocolate;
+}
+.TVs
+{
+    background-color: cornflowerblue;
+}
+.Mobiles
+{
+    background-color: darkkhaki;
+}
+.Laptops
+{
+    background-color:darkslateblue;
+}
+.Cameras:hover , .TVs:hover , .Mobiles:hover
+, .Laptops:hover
+{
+    margin-left:-100px;
+    transition: 1s ease-in-out all ;
+}
+.pro 
+{
+    background-color: rgb(221, 138, 13);
+    margin-top: 70px;
+    width: 100%;
+
+}
+.div3
+{
+    background-attachment: fixed;
+    background-color:indigo;
+}
+img
+{
+    height: 200px;
+    background-color: tomato;
+    padding: 0;
+    margin:0 ;
+    
+}
+h3
+{
+    text-align: center;
+}
+.div31 , .div41 , .div51 , 
+.div61 , .div71 , .div81 ,
+.div91 , .div101 , .div111 ,
+.div121 , .div131 ,  .div141
+
+{
+    margin: 10px 10px ;
+    border: solid 1px rgb(247, 232, 232);
+    padding: 10px;
+    display: inline-block;
+    height: 270px;
+    overflow: hidden;
+    float: left;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+ .div31:hover p , .div41:hover p  , .div51:hover p ,
+ .div61:hover p , .div71:hover p  , .div81:hover p , 
+ .div91:hover p , .div101:hover p , .div111:hover p ,
+ .div121:hover p , .div131:hover p ,  .div141:hover p
+
+{
+    overflow: visible;
+    
+}
+.div31:hover , .div41:hover , .div51:hover ,
+.div61:hover , .div71:hover , .div81:hover ,
+.div91:hover , .div101:hover, .div111:hover ,
+.div121:hover , .div131:hover , .div141:hover 
+
+
+  
+{
+    height:700px;
+    transition: 1s ease-in-out all ;
+   
+}
+img:hover
+{
+    
+    transition: 1s ease-in-out all ;
+    opacity: .8;
+
+}
+span
+{
+    color: darkslateblue;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+ .button1
+{
+    width: 160px;
+    background-color: dodgerblue;
+    color: black;
+    height: 50px;
+    margin: 2px 70px 50px;
+    text-align: center;
+    font-weight: bold;
+}
+button:hover
+{
+    opacity: .9;
+    transition: 1s ease-in-out all ;
+}
+form
+{
+   margin: 180px 70px ;
+}
+.div4 h2
+{
+    margin: 60px;
+}
+form
+{
+   background-color: burlywood;
+}
