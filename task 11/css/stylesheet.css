@@ -1,0 +1,197 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+    background-image: url(../images/light.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+header
+{
+    background-color:rgb(40, 30, 48);
+    position: fixed;
+    padding: 0px;
+    top: 0;
+    width: 100%;
+    height: 55px;
+}
+header ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+header ul li
+{
+    padding: 0px;
+    font-size: 20px;
+    margin: 18px 0px;
+    display: inline-block;
+    float: right;
+
+}
+ .one
+{
+    float: left;
+    margin: 10px 0px;
+    padding:8px 0px ;
+    font-size: 20px;
+
+}
+
+header ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin: 0px;
+    
+}
+header ul li input
+{
+    margin-bottom: 20px;
+}
+ a:hover
+{
+    transition: .4s ease-in-out all;
+    background-color: rgba(119, 119, 114, 0.384);
+    text-decoration-line: underline;
+}
+
+
+.div1
+{
+    margin: 70px 0px 0px;
+    width: 100%;
+}
+.div1 .media
+{
+    width: 100%;
+    margin: 40px 0px;
+}
+@media (min-width:600px) and (max-width:755px)
+{
+    .media
+    {
+        content: url(../images/13190298542.png);
+    }
+}
+@media (max-width:600px)
+{
+    .media
+    {
+        content: url(../images/7x5FT.jpg);
+    }
+}
+.div2
+{
+    background-image: url(../images/windows-7-wallpapers-hd-free-download1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin:15px 20px;
+    text-align: center;
+    height: 60%;
+
+}
+.div2 .fan
+{
+  margin-top: 35px;
+}
+.fan:hover
+{
+    animation: ffff .3s infinite;
+}
+@keyframes ffff
+{
+    0% 
+    {
+        transform: rotate(0deg);
+        content: url(../images/fan1.png);
+    }
+    10% 
+    {
+        transform: rotate(36deg);
+        content: url(../images/fan1.png);
+    }
+
+    20% 
+    {
+        transform: rotate(72deg);
+        content: url(../images/fan2.png);
+    }
+    30% 
+    {
+        transform: rotate(108deg);
+        content: url(../images/fan2.png);
+    }
+    40% 
+    {
+        transform: rotate(144deg);
+        content: url(../images/fan3.png);
+    }
+    50% 
+    {
+        transform: rotate(180deg);
+        content: url(../images/fan3.png);
+    }
+    60% 
+    {
+        transform: rotate(216deg);
+        content: url(../images/fan4.png);
+    }
+    70% 
+    {
+        transform: rotate(252deg);
+        content: url(../images/fan4.png);
+    }
+    80% 
+    {
+        transform: rotate(288deg);
+        content: url(../images/fan5.png);
+    }
+    90% 
+    {
+        transform: rotate(324deg);
+        content: url(../images/fan5.png);
+    }
+    100% 
+    {
+        transform: rotate(360deg);
+        content: url(../images/fan1.png);
+    }
+
+
+}
+.div3
+{
+    background-image: url(../images/windows-7-wallpapers-hd-free-download1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    margin:15px 20px;
+    text-align: center;
+    height: 50%;
+
+
+}
+.pp
+{
+    font-family: Regular;
+    font-size: 50px;
+    margin-top:30px ;
+    padding: 100px;
+    color: gray;
+}
+@font-face
+{
+    font-family:'Regular' ;
+    src: url(../font/StyleScript-Regular.ttf);
+}
+footer 
+{
+    text-align: center;
+    background:rgb(211, 90, 3);
+    font-size: 20px;
+    padding: 20px 0;
+    color: white;
+}
