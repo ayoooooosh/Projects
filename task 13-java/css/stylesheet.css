@@ -1,0 +1,168 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+    background-image: url(../images/7x5FT.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+header
+{
+    background-color:rgb(40, 30, 48);
+    position: fixed;
+    padding: 0px;
+    top: 0;
+    width: 100%;
+    height: 55px;
+}
+header ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+header ul li
+{
+    padding: 0px;
+    font-size: 20px;
+    margin: 18px 0px;
+    display: inline-block;
+    float: right;
+
+}
+ .one
+{
+    float: left;
+    margin: 10px 0px;
+    padding:8px 0px ;
+    font-size: 20px;
+
+}
+
+header ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin: 0px;
+    
+}
+header ul li input
+{
+    margin-bottom: 20px;
+}
+ a:hover
+{
+    transition: .4s ease-in-out all;
+    background-color: rgba(119, 119, 114, 0.384);
+    text-decoration-line: underline;
+}
+.div1 ,.div2
+{
+    margin: 100px 25%;
+    background-color: rgb(231, 195, 140);
+    padding: 30px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.div1 .p1
+{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px solid #000000;
+    background-color: rgb(238, 232, 232);
+    text-align: center;
+
+
+}
+.div1 .p2 ,.div1 .p3
+{
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid #000000;
+    background-color: rgb(238, 232, 232);
+    margin-left: 170px;
+    width: 130px;
+    text-align: center;
+
+
+}
+.div1 .in1 , .div1 .in2 ,.div1 .in3
+{
+    margin:  0px 30px 15px ;
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px solid #000000;
+    background-color: rgb(238, 232, 232);
+    
+}
+.div1 .in3
+{
+    margin:  0px 12px 15px  170px;
+    width: 320px;
+    height: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px solid #000000;
+    background-color: rgb(238, 232, 232);
+    
+}
+.div1 button
+{
+    margin-right: 30px;
+    padding:12px;
+    width: 100px;
+    border: 2px solid #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.p2 ,.in1
+{
+    display:inline-block ;
+}
+.p3 ,.in2
+{
+    display: inline-block;
+}
+.div2 input
+{
+    margin: auto 40%;
+    height: 2px;
+    padding: 15px;
+    text-decoration: khaki;
+}
+.div2 button
+{
+    margin: 30px 45%;
+    padding:12px;
+    width: 100px;
+    border: 2px solid #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.div21
+{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.div2 .div21 img
+{
+    margin: 11px;
+    width: 100%;
+    height: 500px;
+}
+footer 
+{
+    text-align: center;
+    background:rgb(231, 195, 140);
+    font-size: 20px;
+    padding: 20px 0;
+    color: black;
+}
